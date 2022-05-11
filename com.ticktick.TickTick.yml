@@ -46,16 +46,16 @@ modules:
         only-arches:
           - x86_64
         filename: ticktick.deb
-        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_x64/ticktick-0.0.5-amd64.deb
-        sha256: bb84fcce2ffa35d4c087fdb03e71cd772d1d6a5a255d65d8d988ce5affc67cce
-        size: 82933300
+        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_x64/ticktick-1.0.11-amd64.deb
+        sha256: 04fa5b48213719fdb79eaa5515908ff2a1b37f0233ae44cc96530919ef2827b2
+        size: 83179106
       - type: extra-data
         only-arches:
           - aarch64
         filename: ticktick.deb
-        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_arm64/ticktick-0.0.5-arm64.deb
-        sha256: 980f7dfe74e1f174dad29d15344c57a33fc2c8213be37c0f613a74e732323d26
-        size: 82789188
+        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_arm64/ticktick-1.0.11-arm64.deb
+        sha256: 006284bc77173174578ce9f8b0e1192ad35bcacef6ad6fb1b904bee679cb0a44
+        size: 83049894
       - type: file
         path: icons/com.ticktick.TickTick-16.png
       - type: file
