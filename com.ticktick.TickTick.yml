@@ -27,7 +27,7 @@ modules:
     build-commands:
       - install -Dm755 apply_extra /app/bin/apply_extra
       - install -Dm755 ticktick -t ${FLATPAK_DEST}/bin
-      - install -Dm644 $FLATPAK_ID.desktop -t ${FLATPAK_DEST}/share/applications 
+      - install -Dm644 $FLATPAK_ID.desktop -t ${FLATPAK_DEST}/share/applications
       - install -Dm644 $FLATPAK_ID.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo
       - |
         for icon in 16 48 128; do
@@ -46,9 +46,9 @@ modules:
         only-arches:
           - x86_64
         filename: ticktick.deb
-        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_x64/ticktick-1.0.30-amd64.deb
-        sha256: 0fed827ca093953feb5b2f37ef4adf655227f4b47b270ee2ae8d93bb39b3c822
-        size: 83455450
+        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_x64/ticktick-1.0.40-amd64.deb
+        sha256: f5696d44bec38a6498a8cee068435cecea95ba88abebea62d8ac6c92025d0748
+        size: 83578872
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_x64
@@ -57,9 +57,9 @@ modules:
         only-arches:
           - aarch64
         filename: ticktick.deb
-        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_arm64/ticktick-1.0.30-arm64.deb
-        sha256: be434e8fa93f7ce19f13b355300f82941749d8af59a95608f059654d4ebf1227
-        size: 83187050
+        url: https://appest-public.s3.amazonaws.com/download/linux/linux_deb_arm64/ticktick-1.0.40-arm64.deb
+        sha256: 5fd4b8d5df4b0475cb51cec1e4b73981499c2bc84c909fb3a5ed841d90bc67b3
+        size: 83325812
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_arm64
@@ -81,4 +81,5 @@ modules:
         dest-filename: ticktick
         commands:
           - export TMPDIR=$XDG_RUNTIME_DIR/app/$FLATPAK_ID
-          - TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/opt/TickTick/ticktick "$@"
+          - TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/opt/TickTick/ticktick
+            "$@"
