@@ -52,7 +52,7 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_x64
-          pattern: https://ticktick-download-linux.s3.amazonaws.com/download/linux/linux_deb_x64/ticktick-([0-9.]+)-amd64.deb
+          pattern: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_x64/ticktick-([0-9.]+)-amd64.deb
       - type: extra-data
         only-arches:
           - aarch64
@@ -63,7 +63,7 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_arm64
-          pattern: https://ticktick-download-linux.s3.amazonaws.com/download/linux/linux_deb_arm64/ticktick-([0-9.]+)-arm64.deb
+          pattern: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_arm64/ticktick-([0-9.]+)-arm64.deb
       - type: file
         path: icons/com.ticktick.TickTick-16.png
       - type: file
