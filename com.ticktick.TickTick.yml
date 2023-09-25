@@ -73,7 +73,7 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - bsdtar -xf tick.deb 'data.tar*'
+          - bsdtar -xf ticktick.deb 'data.tar*'
           - rm ticktick.deb
           - tar -xf data.tar.xz --strip-components=1 ./opt/TickTick
           - tar -xf data.tar.xz --strip-components=2 ./usr
