@@ -45,9 +45,9 @@ modules:
         only-arches:
           - x86_64
         filename: ticktick.deb
-        url: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_x64/ticktick-6.0.0-amd64.deb
-        sha256: ca8b2427bbf4460459d7a82cf54635c5ffcfba72e81643462a654c90f2433e63
-        size: 86635628
+        url: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_x64/ticktick-6.0.10-amd64.deb
+        sha256: fd26902456b3f2abae164e1b2e646bbdf629ab20cd4d5fdd241ac0269393e12e
+        size: 101221404
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_x64
@@ -56,9 +56,9 @@ modules:
         only-arches:
           - aarch64
         filename: ticktick.deb
-        url: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_arm64/ticktick-6.0.0-arm64.deb
-        sha256: 6b45a9018adc9aefc2aef024888bc51234978a3ee53226ece3634fd08db1f586
-        size: 82938200
+        url: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_arm64/ticktick-6.0.10-arm64.deb
+        sha256: ab81612337cb424b2bf72c499bcf2e77b68dd21051baa81daaa155b6a42a6dcd
+        size: 96586534
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_arm64
