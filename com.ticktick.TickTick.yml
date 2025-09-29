@@ -45,7 +45,7 @@ modules:
         only-arches:
           - x86_64
         filename: ticktick.deb
-        url: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_x64/ticktick-6.0.40-amd64.deb
+        url: https://download.ticktick.app/download/linux/linux_deb_x64/ticktick-6.0.40-amd64.deb
         sha256: d1e06c0ffa8509a2bf22cbb85c956f7bef1306cb202c0b0208cd461cddb73c89
         size: 104992200
         x-checker-data:
@@ -56,7 +56,7 @@ modules:
         only-arches:
           - aarch64
         filename: ticktick.deb
-        url: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_arm64/ticktick-6.0.40-arm64.deb
+        url: https://download.ticktick.app/download/linux/linux_deb_arm64/ticktick-6.0.40-arm64.deb
         sha256: 5122a6c9d8b2798f0889b7be79b706726c28ed7244c3f1047ff398e0fb12ae5f
         size: 100334184
         x-checker-data:
