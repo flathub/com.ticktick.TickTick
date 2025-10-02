@@ -1,9 +1,9 @@
 app-id: com.ticktick.TickTick
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '25.08'
 
 command: ticktick
 
@@ -51,7 +51,7 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_x64
-          pattern: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_x64/ticktick-([0-9.]+)-amd64.deb
+          pattern: https://download.ticktick.app/download/linux/linux_deb_arm64/ticktick-([0-9.]+)-amd64.deb
       - type: extra-data
         only-arches:
           - aarch64
@@ -62,7 +62,7 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_arm64
-          pattern: https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_deb_arm64/ticktick-([0-9.]+)-arm64.deb
+          pattern: https://download.ticktick.app/download/linux/linux_deb_arm64/ticktick-([0-9.]+)-arm64.deb
       - type: file
         path: icons/com.ticktick.TickTick-16.png
       - type: file
@@ -72,7 +72,7 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - bsdtar -xf ticktick.deb 'data.tar*'
+          - LANG=C bsdtar -xf ticktick.deb 'data.tar*'
           - rm ticktick.deb
           - tar -xf data.tar.xz --strip-components=1 ./opt/TickTick
           - tar -xf data.tar.xz --strip-components=2 ./usr
