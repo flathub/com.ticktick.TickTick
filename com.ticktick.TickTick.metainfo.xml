@@ -7,6 +7,7 @@
   <developer_name>TickTick Team</developer_name>
   <summary>Your wonderful to-do &amp; task list to make all things done and get life well organized.</summary>
   <description>
+    <p>**NOTE: This wrapper is not created by, affiliated with, or supported by TickTick Team.**</p>
     <p>TickTick is a powerful to-do &amp; task management app with seamless cloud synchronization across all your devices. 
     Whether you need to schedule an agenda, make memos, share shopping lists, collaborate in a team, or even develop a new habit, 
     TickTick is always here to help you get stuff done and keep life on track.</p>
@@ -54,7 +55,6 @@
 
     <p>Connect with us:</p>
     <p>Facebook: @TickTickApp | Twitter: @TickTick | Reddit: r/ticktick</p>
-    <p>NOTE: This wrapper is not created by, affiliated with, or supported by TickTick Team.</p>
   </description>
   <metadata_license>CC-BY-SA</metadata_license>
   <url type="homepage">https://ticktick.com/home</url>
