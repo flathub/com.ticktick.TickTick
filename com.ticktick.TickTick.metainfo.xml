@@ -61,18 +61,23 @@
   <url type="help">https://support.ticktick.com/</url>
   <screenshots>
     <screenshot type="default">
+      <caption>Task view showing tasks grouped by list and priority.</caption>
       <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2022/02/1_QlJwo92.png</image>
     </screenshot>
     <screenshot>
+      <caption>Calendar view showing events in a monthly overview.</caption>
       <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2022/02/2_SLCpRhB.png</image>
     </screenshot>
     <screenshot>
+      <caption>A reminder creation popup.</caption>
       <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2022/02/3_ZwbChrL.png</image>
     </screenshot>
     <screenshot>
+      <caption>Task view showing a popup to share and comment on a task.</caption>
       <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2022/02/4_RfDCLgT.png</image>
     </screenshot>
     <screenshot>
+      <caption>The TickTick app shown on multiple platforms: web, desktop and mobile.</caption>
       <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2022/02/5.png</image>
     </screenshot>
   </screenshots>
