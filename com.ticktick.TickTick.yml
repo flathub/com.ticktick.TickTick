@@ -11,8 +11,8 @@ tags:
   - proprietary
 
 finish-args:
-  - --socket=x11
-  # - --socket=wayland
+  - --socket=wayland
+  - --socket=fallback-x11
   - --device=dri
   - --share=ipc
   - --socket=pulseaudio
