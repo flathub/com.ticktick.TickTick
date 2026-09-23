@@ -45,9 +45,9 @@ modules:
         only-arches:
           - x86_64
         filename: ticktick.deb
-        url: https://download.ticktick.app/download/linux/linux_deb_x64/ticktick-8.0.11-amd64.deb
-        sha256: cd7645de7da5a9d17ca53751fe088df224377ee6f19d4628e2ee65c2425dda4e
-        size: 140382176
+        url: https://download.ticktick.app/download/linux/linux_deb_x64/ticktick-8.0.20-amd64.deb
+        sha256: f970d8bc6d2a47d3f64baf1177ecf74612c3fe3bc60776bb9c3caf8f66b03467
+        size: 142634780
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_x64
@@ -56,9 +56,9 @@ modules:
         only-arches:
           - aarch64
         filename: ticktick.deb
-        url: https://download.ticktick.app/download/linux/linux_deb_arm64/ticktick-8.0.11-arm64.deb
-        sha256: 2c48a8993d57c3fe4a62e4865c11f59603f3040235811c42e42fe3672b0fa983
-        size: 135228160
+        url: https://download.ticktick.app/download/linux/linux_deb_arm64/ticktick-8.0.20-arm64.deb
+        sha256: bcda56ba12a5f04d38d8c7d9e6c997d19f0eff32128dcfa607d5acec06c42d71
+        size: 137481788
         x-checker-data:
           type: rotating-url
           url: https://ticktick.com/static/getApp/download?type=linux_deb_arm64
