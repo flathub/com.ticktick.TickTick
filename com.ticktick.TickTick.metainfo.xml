@@ -3,13 +3,15 @@
   <id>com.ticktick.TickTick</id>
   <launchable type="desktop-id">com.ticktick.TickTick.desktop</launchable>
   <name>TickTick</name>
-  <project_license>LicenseRef-proprietary</project_license>
-  <developer_name>TickTick Team</developer_name>
-  <summary>Your wonderful to-do &amp; task list to make all things done and get life well organized.</summary>
+  <project_license>LicenseRef-proprietary=https://ticktick.com/tos</project_license>
+  <developer id="com.ticktick">
+    <name>TickTick Team</name>
+  </developer>
+  <summary>Your wonderful to-do &amp; task list to make all things done and get life well organized</summary>
   <description>
     <p>**NOTE: This wrapper is not created by, affiliated with, or supported by TickTick Team.**</p>
-    <p>TickTick is a powerful to-do &amp; task management app with seamless cloud synchronization across all your devices. 
-    Whether you need to schedule an agenda, make memos, share shopping lists, collaborate in a team, or even develop a new habit, 
+    <p>TickTick is a powerful to-do &amp; task management app with seamless cloud synchronization across all your devices.
+    Whether you need to schedule an agenda, make memos, share shopping lists, collaborate in a team, or even develop a new habit,
     TickTick is always here to help you get stuff done and keep life on track.</p>
 
     <p>Key features of TickTick:</p>
@@ -48,9 +50,6 @@
       <li>Sync across multiple platforms</li>
       <li>Save efforts for stuff that really matters</li>
     </ul>
-
-    <p>Our Privacy Policy: https://www.ticktick.com/about/privacy</p>
-    <p>Our Terms of Use: https://www.ticktick.com/about/tos</p>
     <p>For questions, feedback, or tips, we're happy to help you at support@ticktick.com</p>
 
     <p>Connect with us:</p>
@@ -129,5 +128,5 @@
     <release version="0.0.5" date="2022-01-12"/>
   </releases>
   <content_rating type="oars-1.1"/>
-  <update_contact>gkeep@gkeep.xyz</update_contact>
+  <update_contact>me@gkeep.dev</update_contact>
 </component>
